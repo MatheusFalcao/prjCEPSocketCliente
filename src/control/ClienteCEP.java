@@ -29,7 +29,7 @@ public class ClienteCEP {
 			saida = new PrintWriter(canalDeSaida, true);
 			
 			scan = new Scanner(System.in);
-			System.out.println("Digite o CEP que deseja Consulta : ");
+			System.out.println("Digite o CEP que deseja Consultar : ");
 			String resp = scan.nextLine();
 			
 			saida.println(resp);
